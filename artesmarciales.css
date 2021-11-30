@@ -1,0 +1,98 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    color: white;
+  }
+  
+  li a {
+    color: white;
+    background-color:black;
+    display: block;
+    padding: 8px;
+  }
+  li a:hover{
+    color: black;
+    background-color: white;
+    
+  }
+ h1{
+   text-align: center;
+ }
+ .parallax {
+ 
+  background-image: url("../img/leopardo.jpg");
+
+
+  min-height: 500px; 
+  
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.titulo{
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  top: 225px;
+  left: 40%;
+  z-index: 1;
+  padding: 5px;
+  border: solid 0.5px peru;
+}
+.informacion{
+  padding: 5px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.leopar, .tdleopar, .trleopar {
+  border: 3px solid rgb(130, 130, 130);
+  text-align: left;
+  padding: 20px;
+}
+
+.leopar {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 50%;
+  border-collapse: collapse;
+}
+.parallax1 {
+ 
+  background-image: url("../img/cocodrilomar.jpg");
+
+
+  min-height: 500px; 
+  
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.coco {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 50%;
+  border-collapse: collapse;
+}
+.coco, .trcoco, .tdcoco {
+  border: 3px solid rgb(244, 216, 132);
+  text-align: left;
+  padding: 20px;
+}
+
